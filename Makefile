@@ -23,7 +23,7 @@ $(OBJ_DIR)/%.o: $(SRC_DIR)/%.c
 	$(CC) $(CFLAGS) $(INC) -c $< -o $@
 
 prebuild: 
-	@-mkdir -p $(BUILD_DIR)
+	@-mkdir -p $(BUILD_DIR) $(OBJ_DIR)
 
 clean:
 	@-rm -rf $(OBJ_DIR)/*.o $(SRC_DIR)/*.o $(BUILD_DIR)
