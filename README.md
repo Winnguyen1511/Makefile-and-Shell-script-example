@@ -1,4 +1,6 @@
-# Makefile-and-Shell-script-example
+# Makefile-and-Shell-script
+Author: Nguyen Huynh Dang Khoa - Victor Nguyen  
+
 - Tree  
 - run ./configure first to choose the toolchain, otherwise, it will   
   defaultly choose x86_64 arch  
